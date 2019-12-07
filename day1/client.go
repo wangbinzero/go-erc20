@@ -7,6 +7,8 @@ import (
 )
 
 func main() {
+
+	// https://mainnet.infura.io  主网地址
 	client, err := ethclient.Dial("https://mainnet.infura.io")
 	if err != nil {
 		log.Fatal(err)
